@@ -1,12 +1,17 @@
-//Author: Nur Zarith Sofea Binti Meor Zulkarnain
-//Program Name: StudentProfile.javaZulkarnaian
-//Description: To display student information using Java output statements.
-//Date: 22/10/2026
-//Modified Date: None
-//Version: 1.0
-// 
-package studentprofile; // Package name for this class
 
+/*
+Author: Nur Zarith Sofea Binti Meor Zulkarnain
+*Program Name: StudentProfile.java
+*Description: To display student information using Java output statements.
+*Date: 22/10/2026
+*Modified Date: None
+*Version: 1.0
+*/
+
+// Package name for this class
+package studentprofile;
+
+// Declare StudentProfile class
 public class StudentProfile { // Opening curly brace: begins the class
 
     // Main method: starting point of the program
@@ -20,6 +25,12 @@ public class StudentProfile { // Opening curly brace: begins the class
 
         // Display the student's programme
         System.out.println("Programme: Bachelor of Computer Science");
+
+        // Display the student's semester
+        System.out.println("Semester: Semester 1");
+
+        // Display the student's favourite programming language
+        System.out.println("Favourite Language: Java");
 
     } // Closing curly brace: ends the main method
 
